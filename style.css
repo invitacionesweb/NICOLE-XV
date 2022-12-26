@@ -98,6 +98,18 @@ audio {
     background-position: top;
     
 }
+.boxB {
+    width: 100%;
+    height: auto;
+    padding: 40px 0 50px 0;
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+    background-image: url(./Frame3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+}
 .box2 img {
     width: 50px;
 }

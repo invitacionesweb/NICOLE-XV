@@ -64,6 +64,9 @@ header {
     padding: 0;
     margin: 0;
 }
+audio {
+    padding: 20px 0 0 0;
+}
 .box1 {
     width: 100%;
     height: auto;
@@ -77,13 +80,16 @@ header {
     padding: 0px 40px;
     margin:  0 0 20PX 0;
 }
+.box1 img {
+    width: 50px;
+}
 .box2 {
     width: 100%;
     height: auto;
     padding: 40px 0 50px 0;
     background-color: var(--color-secundario);
     color: var(--color-principal);
-    background-image: url(./mariposasdress.png);
+    background-image: url(./Frame\ 2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -138,4 +144,51 @@ header {
      text-align: center;
      text-decoration: none;
  }
-.co
+ footer {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+    padding: 40px 0;
+    text-align: center;
+}
+footer .contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box3 {
+    padding: 30px 0;
+}
+.box3 h2{
+    margin: 0;
+    padding: 0;
+}
+footer img {
+    width: 60px;
+}
+.contenido ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+
+}
+
+.contenido a {
+    color: var(--color-principal);
+}
+.contenido a:hover {
+    color: var(--color-secundario);
+}
+
+
+.contenido a {
+    color: var(--color-principal);
+}
+.contenido a:hover {
+    color: var(--color-secundario);
+}
